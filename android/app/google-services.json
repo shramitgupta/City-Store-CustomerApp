@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "535472329998",
+    "project_id": "multi-store-ee714",
+    "storage_bucket": "multi-store-ee714.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:535472329998:android:bd088cc41e67dabde1735f",
+        "android_client_info": {
+          "package_name": "com.example.ms_customer_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "535472329998-km7a67jjouml54k7k21kfkt4t1oaikb5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ms_customer_app",
+            "certificate_hash": "7d4868b94eb206ba6ec913a887fafb13cf32e48e"
+          }
+        },
+        {
+          "client_id": "535472329998-13j92vbsp39dredkgkeqlbqcvtpaghc8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACGrrbk7QtVknRp3JiQmz5JtJvw4lZCWE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "535472329998-13j92vbsp39dredkgkeqlbqcvtpaghc8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "535472329998-qb2usn8si8jmcfkcj308d4f3i9p1p0rr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.msSupplierApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:535472329998:android:6ac61bce3f7d2c94e1735f",
+        "android_client_info": {
+          "package_name": "com.example.ms_supplier_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "535472329998-0105f6qutgpouuecol9nr96u9d7nna47.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ms_supplier_app",
+            "certificate_hash": "7d4868b94eb206ba6ec913a887fafb13cf32e48e"
+          }
+        },
+        {
+          "client_id": "535472329998-13j92vbsp39dredkgkeqlbqcvtpaghc8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACGrrbk7QtVknRp3JiQmz5JtJvw4lZCWE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "535472329998-13j92vbsp39dredkgkeqlbqcvtpaghc8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "535472329998-qb2usn8si8jmcfkcj308d4f3i9p1p0rr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.msSupplierApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
