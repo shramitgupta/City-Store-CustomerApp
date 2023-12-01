@@ -14,7 +14,7 @@ import 'package:staggered_grid_view_flutter/widgets/staggered_grid_view.dart';
 import 'package:staggered_grid_view_flutter/widgets/staggered_tile.dart';
 import 'package:provider/provider.dart';
 import 'package:collection/collection.dart';
-import 'package:badges/badges.dart';
+import 'package:badges/badges.dart' as badges;
 import 'package:expandable/expandable.dart';
 
 class ProductDetailsScreen extends StatefulWidget {
@@ -333,7 +333,7 @@ class _ProductDetailsScreenState extends State<ProductDetailsScreen> {
                                           back: AppBarBackButton(),
                                         )));
                           },
-                          icon: Badge(
+                          icon: badges.Badge(
                               showBadge: context.read<Cart>().getItems.isEmpty
                                   ? false
                                   : true,

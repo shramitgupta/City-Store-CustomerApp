@@ -1,4 +1,4 @@
-import 'package:badges/badges.dart';
+import 'package:badges/badges.dart' as badges;
 import 'package:flutter/material.dart';
 import 'package:ms_customer_app/main_screens/cart.dart';
 import 'package:ms_customer_app/main_screens/category.dart';
@@ -52,7 +52,7 @@ class CustomerHomeScreenState extends State<CustomerHomeScreen> {
             label: 'Stores',
           ),
           BottomNavigationBarItem(
-            icon: Badge(
+            icon: badges.Badge(
                 showBadge: context.read<Cart>().getItems.isEmpty ? false : true,
                 // padding: const EdgeInsets.all(2),
                 // badgeColor: Colors.yellow,
